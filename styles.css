@@ -1,0 +1,63 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1683887034473-74e486cdb7a1?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(179, 216, 246, 0.6);
+    background-blend-mode: lighten;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: 10px black;
+}
+p, ul {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {background-color: cornsilk;}
+table {width: 100%;}
+
+@media screen and (min-width: 600px) {table {width: 60%;}}
+@media screen and (min-width: 800px) {table {width: 80%;}}
+@media screen and (min-width: 1000px) {table {width: 100%;}}
+
+
+.table-container { 
+    text-align: center;
+} 
+ 
+table { 
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+} 
+
+table.a {
+  border: 4px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow-wrap: break-word;
+  background-color: rgba(255,255,255,1);
+    margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+td.a {  background-color: rgba(255,255,255,1);}
+@media screen and (min-width: 400px) {table.a {width: 80%;}}
