@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-body > div {
+body > main {
     display: flex;
     flex-direction: column;
     margin: 0 10rem;
@@ -28,14 +28,15 @@ body > div {
 
     border: 1px solid black;
     border-radius: 15px;
+    z-index: 1;
 }
 
 h1 {
     text-align: center;
     box-shadow: 10px black;
 }
-p, ul {
-    font-size: 20px;
+p, ul, th, td {
+    font-size: 18px;
 }
 
 h2 {
